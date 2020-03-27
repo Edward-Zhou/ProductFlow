@@ -1,0 +1,7 @@
+<p>machine works!</p>
+<div>{{currentAction}}</div>
+<div Button [routerLink]="['machines/create']">Create</div>
+<div *ngFor = "let machine of machines">
+    <span>{{machine.id}}</span>
+    <span>{{machine.name}}</span>
+</div>
